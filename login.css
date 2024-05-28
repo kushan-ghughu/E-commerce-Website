@@ -3,13 +3,11 @@
     padding: 0;
 }
 .box{
-    display: block;
     width: 300px;
     height: 250px;
-    padding: 50px;
     background-color: white;
-    margin:250px auto;
     border: 2px solid black;
+    padding: 30px;
 }
 .box h2{
      text-align: left;
@@ -54,4 +52,12 @@ input{
 .check>span{
     color: rgb(51, 145, 145);
 }
-
+.login{
+    background-image: url(images/login_page.jpg);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
